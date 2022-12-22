@@ -101,11 +101,11 @@ export default class App extends Component {
           >
             <div>{"React JS snake game"}</div>
             <input
-              style={{ display: "none" }}
+              //   style={{ display: "none" }}
               onKeyDown={(e) => this.fun1(e)}
               autoFocus
             />
-            {"score: " + this.score - 2}
+            {"score: " + this.score}
             <div
               style={{
                 position: "relative",
@@ -114,6 +114,8 @@ export default class App extends Component {
                 border: "1px solid blue",
                 borderRadius: "10px",
               }}
+              onKeyDown={(e) => this.fun1(e)}
+              autoFocus
             >
               <div
                 style={{
