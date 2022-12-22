@@ -31,6 +31,7 @@ export default class App extends Component {
   snake_collied = () => {
     this.arr.map((e) => {
       if (e[0] == this.x && e[1] == this.y) {
+        //  alert("your score: ", this.score);
         this.score = 0;
         this.arr = [];
       }
