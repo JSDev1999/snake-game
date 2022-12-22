@@ -105,7 +105,7 @@ export default class App extends Component {
               onKeyDown={(e) => this.fun1(e)}
               autoFocus
             />
-            {"score: " + this.score}
+            {"score: " + this.score - 2}
             <div
               style={{
                 position: "relative",
